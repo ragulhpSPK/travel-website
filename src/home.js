@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "./assets/homeimg3.jpg";
+// import img1 from "./assets/homeimg3.jpg";
 import "./styles/home.css";
 import { Image } from "react-bootstrap";
 import HomeSecondpage from "./homeSecondpage";
@@ -9,7 +9,7 @@ function Home() {
     <div className="home-page">
       <div className="first-page">
         <div className="img-box">
-          <Image src={img1} alt="Not found" fluid />
+          <Image src="./assets/homeimg3.jpg" alt="Not found" fluid />
         </div>
 
         <div data-aos="fade-up" data-aos-duration="3000" class="scroll-left">
