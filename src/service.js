@@ -7,7 +7,7 @@ function Service() {
       <div className="service-box">
         <h2>Our Services</h2>
         <div className="container">
-          <div className="card">
+          <div className="cardbx">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -30,7 +30,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cardbx">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -53,7 +53,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cardbx">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -76,7 +76,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cardbx">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -99,7 +99,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cardbx">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -122,7 +122,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cardbx">
             <div className="lines"></div>
             <div className="imgBx">
               <i

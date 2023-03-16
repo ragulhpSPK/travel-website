@@ -1,0 +1,25 @@
+.rooms-container {
+  height: 100vh;
+  margin-top: 5%;
+}
+
+.rooms-container h1 {
+  text-align: center;
+}
+
+.card figure img {
+  width: 100%;
+}
+
+.room-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  width: 100%;
+  height: 50%;
+}
+
+.rooms-box {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 15%;
+}

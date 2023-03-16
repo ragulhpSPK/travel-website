@@ -2,12 +2,13 @@ import React from "react";
 import "./styles/booking.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Rooms from "./rooms";
 
 function Booking() {
   return (
     <div className="book-container">
       <div className="booking-box">
-        <h1>Book your Travel</h1>
+        <h1>Book Your Dream Place</h1>
         <form>
           <label htmlFor="name">
             Name
@@ -57,9 +58,12 @@ function Booking() {
           </div>
         </form>
       </div>
+      <h1 style={{ textAlign: "center", marginTop: "40px" }}>
+        Offers of the Month
+      </h1>
       <div className="booking-cards">
-        <div className="card-box">
-          <Card>
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
             <Card.Img variant="top" src="./assets/goa.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -67,12 +71,13 @@ function Booking() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Book Now</Button>
             </Card.Body>
           </Card>
         </div>
-        <div className="card-box">
-          <Card>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
             <Card.Img variant="top" src="./assets/ladakh.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -80,38 +85,41 @@ function Booking() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Book Now</Button>
             </Card.Body>
           </Card>
         </div>
-        <div className="card-box">
-          <Card>
-            <Card.Img src="./assets/ooty.jpg" />
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img src="./assets/agra.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button>Go somewhere</Button>
+              <Button>Book Now</Button>
             </Card.Body>
           </Card>
         </div>
-        {/* <div className="card-box">
-          <Card>
-            <Card.Img variant="top" src="./assets/manali.jpg" />
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Book Now</Button>
             </Card.Body>
           </Card>
-        </div> */}
-        {/* <div className="card-box">
-          <Card>
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
             <Card.Img variant="top" src="./assets/kodaikanal.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -119,23 +127,111 @@ function Booking() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Book Now</Button>
             </Card.Body>
           </Card>
         </div>
-        <div className="card-box">
-          <Card>
-            <Card.Img variant="top" src="./assets/agra.jpg" />
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Book Now</Button>
             </Card.Body>
           </Card>
-        </div> */}
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Book Now</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Book Now</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Book Now</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Book Now</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Book Now</Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="cards-box">
+          <Card style={{ width: "400px" }}>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Book Now</Button>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
+      <div>
+        <Rooms />
       </div>
     </div>
   );
