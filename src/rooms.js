@@ -9,7 +9,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/single.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -24,7 +24,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/double.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -39,7 +39,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/triple.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -54,7 +54,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/quad.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -69,7 +69,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/appartments.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -84,7 +84,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/studio.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -99,7 +99,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/twin.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -114,7 +114,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/villa.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -129,7 +129,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/connecting.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -144,7 +144,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/adjoining.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -159,7 +159,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/double double.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>
@@ -174,7 +174,7 @@ function Rooms() {
         <div className="rooms-box">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="./assets/single.jpg" alt="Shoes" />
+              <img src="./assets/minisuite.webp" alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Shoes!</h2>

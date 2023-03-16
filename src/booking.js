@@ -64,7 +64,7 @@ function Booking() {
       <div className="booking-cards">
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/GOA01.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -78,7 +78,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/ladakh.jpg" />
+            <Card.Img variant="top" src="./assets/LADAKH01.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -92,7 +92,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img src="./assets/agra.jpg" />
+            <Card.Img src="./assets/AMRITSAR.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -106,7 +106,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/DALHOUSIE.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -120,7 +120,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/kodaikanal.jpg" />
+            <Card.Img variant="top" src="./assets/MUMBAI.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -134,7 +134,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/MUNNAR.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -148,7 +148,10 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img
+              variant="top"
+              src="./assets/ANDAMAN-NICOBAR-ISLANDS.jpg"
+            />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -162,7 +165,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/SHIMLA.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -176,7 +179,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/SRINAGAR.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -190,7 +193,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/HYDERABAD.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -204,7 +207,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/VARANASI.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -218,7 +221,7 @@ function Booking() {
 
         <div className="cards-box">
           <Card style={{ width: "400px" }}>
-            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Img variant="top" src="./assets/JAIPUR.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>

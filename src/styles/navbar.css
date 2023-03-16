@@ -3,6 +3,7 @@
   transition: 0.5s;
 }
 
+
 @media (max-width: 1214px) {
   .navbar a {
     font-size: 12px;

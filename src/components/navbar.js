@@ -31,6 +31,7 @@ const Appbar = () => {
             src="./assets/logo1.png"
             alt="Not found"
             style={{ width: "60px" }}
+            id='logo'
           />
           Travel Agency
         </Navbar.Brand>

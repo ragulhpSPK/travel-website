@@ -65,17 +65,23 @@ function HomeSecondpage() {
       {/* packages */}
       <div className="packages">
         <div className="package-para">
-          <h1>Travel packages</h1>
-          <p>
+          <h1 data-aos="fade-right" data-aos-duration="2000">
+            Travel packages
+          </h1>
+          <p data-aos="zoom-in" data-aos-duration="2000">
             Travel brings power and love back into your life.So,Take only
             memories, leave only footprints...
           </p>
-          <p>
+          <p data-aos="zoom-in" data-aos-duration="2000">
             Your Travel package starts <br /> from:
-            <span>$56</span>
+            <span data-aos="zoom-in" data-aos-duration="2000">
+              $56
+            </span>
           </p>
         </div>
-        <button> For more details</button>
+        <button data-aos="zoom-in" data-aos-duration="2000">
+          For more details
+        </button>
       </div>
       <div className="review-section">
         <div className="first-section">

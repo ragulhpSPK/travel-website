@@ -9,6 +9,7 @@
 
 .card figure img {
   width: 100%;
+  height: 250px;
 }
 
 .room-cards {
@@ -20,6 +21,6 @@
 
 .rooms-box {
   width: 60%;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-left: 15%;
 }
