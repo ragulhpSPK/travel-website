@@ -3,34 +3,55 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Image } from "react-bootstrap";
-import logo from "../assets/logo1.png";
+// import logo from "../assets/logo1.png";
+import { Link } from "react-router-dom";
+import { styled } from "@mui/material";
+import "../styles/navbar.css";
 
 const Appbar = () => {
+  const StyledLink = styled(Link)({
+    textDecoration: "none",
+    color: "#000",
+    fontSize: "18px",
+    "&.active": {
+      backgroundColor: "red",
+      padding: 10,
+      borderRadius: 5,
+    },
+
+    //    "&:hover" :{
+    //   background: none;
+    // }
+  });
   return (
     <Navbar bg="light" expand="lg" style={{ height: "70px" }}>
       <Container>
         <Navbar.Brand href="#home" className="text-dark fw-bold fs-5">
-          <Image src={logo} alt="Not found" style={{ width: "60px" }} />
+          <Image
+            src="./assets/logo1.png"
+            alt="Not found"
+            style={{ width: "60px" }}
+          />
           Travel Agency
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
-            <Nav.Link href="#home" className="fw-bold ms-5">
+          <Nav className="navbar">
+            <StyledLink to="/" className="fw-bold ms-5">
               Home
-            </Nav.Link>
-            <Nav.Link href="#product" className="fw-bold ms-5">
+            </StyledLink>
+            <StyledLink to="service" className="fw-bold ms-5">
               Services
-            </Nav.Link>
-            <Nav.Link href="#best" className="fw-bold ms-5">
+            </StyledLink>
+            <StyledLink to="booking" className="fw-bold ms-5">
               Book Your order
-            </Nav.Link>
-            <Nav.Link href="#orders" className="fw-bold ms-5">
+            </StyledLink>
+            <StyledLink to="about" className="fw-bold ms-5">
               About
-            </Nav.Link>
-            <Nav.Link href="#detail" className="fw-bold ms-5">
+            </StyledLink>
+            <StyledLink to="contact" className="fw-bold ms-5">
               Contact us
-            </Nav.Link>
+            </StyledLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

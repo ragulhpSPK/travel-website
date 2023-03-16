@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./assets/travellogo1.png";
+// import logo from "./assets/travellogo1.png";
 import "./styles/homesecondpage.css";
-import revlogo from "./assets/rev04.png";
+// import revlogo from "./assets/rev04.png";
 
 function HomeSecondpage() {
   return (
@@ -19,7 +19,11 @@ function HomeSecondpage() {
         </div>
         <div className="content-box">
           <div className="content">
-            <img src={logo} alt="not found" style={{ width: "60px" }} />
+            <img
+              src="./assets/travellogo1.png"
+              alt="not found"
+              style={{ width: "60px" }}
+            />
             <h1>Safety Travel</h1>
             <p data-aos="zoom-out" data-aos-duration="2000">
               Travelling is an amazing way to learn a lot of things in life. A
@@ -29,7 +33,11 @@ function HomeSecondpage() {
             </p>
           </div>
           <div className="content">
-            <img src={logo} alt="not found" style={{ width: "60px" }} />
+            <img
+              src="./assets/travellogo1.png"
+              alt="not found"
+              style={{ width: "60px" }}
+            />
             <h1>Book your trip</h1>
             <p data-aos="zoom-out" data-aos-duration="2000">
               Travelling is an amazing way to learn a lot of things in life. A
@@ -39,7 +47,11 @@ function HomeSecondpage() {
             </p>
           </div>
           <div className="content">
-            <img src={logo} alt="not found" style={{ width: "60px" }} />
+            <img
+              src="./assets/travellogo1.png"
+              alt="not found"
+              style={{ width: "60px" }}
+            />
             <h1>Good Support</h1>
             <p data-aos="zoom-out" data-aos-duration="2000">
               Travelling is an amazing way to learn a lot of things in life. A
@@ -70,7 +82,7 @@ function HomeSecondpage() {
           <p>Give your reviews,How you all enjoy our transport service...</p>
         </div>
         <div className="second-section">
-          <img src={revlogo} alt="Not found" />
+          <img src="./assets/rev04.png" alt="Not found" />
         </div>
       </div>
     </div>

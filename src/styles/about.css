@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.card-container {
+  width: 1500px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-container .about-card {
+  position: relative;
+  height: 200px;
+  width: 800px !important;
+  margin-right: 10%;
+}
+
+.card-container .about-card .face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.card-container .about-card .face.face1 {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform-origin: bottom;
+}
+
+.card-container .about-card .face.face1 img {
+  max-width: 100px;
+}
+
+.card-container .about-card .face.face1 h3 {
+  margin: 10px 0 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.card-container .about-card:hover .face.face1 {
+  transform: translateY(-100%) rotateX(90deg);
+  background: #ff0057;
+}
+
+.card-container .about-card .face.face2 .about-content {
+  width: 100%;
+  font-size: 15px;
+}
+
+.card-container .about-card .face.face2 {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform-origin: top;
+  transform: translateY(100%) rotateX(90deg);
+}
+
+.card-container .about-card:hover .face.face2 {
+  transform: translateY(0%) rotateX(0deg);
+}
+
+.about-container {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--third-text-color);
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 5%;
+}
+
+.content-box2 {
+  width: 40%;
+  height: 100%;
+  background-color: var(--third-text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.content-box2 h1 {
+  font-size: 60px;
+  color: var(--first-text-color);
+}
+.content-box2 p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.content-box2 button {
+  height: 40px;
+  width: 150px;
+  border: none;
+}
+
+.img-box2 {
+  width: 40%;
+  height: 100%;
+}
+
+.img-box2 img {
+  width: 90%;
+  height: 100%;
+}

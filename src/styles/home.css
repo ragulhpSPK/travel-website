@@ -19,14 +19,17 @@
 .scroll-left {
   position: relative;
   top: -22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .scroll-left p {
   font-size: 40px;
   color: #fff;
   letter-spacing: 3px;
-  text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%),
-    3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 50%, 34%);
+  text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%);
 }
 
 .para {
@@ -41,6 +44,8 @@
 
 .buttons {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .buttons button {

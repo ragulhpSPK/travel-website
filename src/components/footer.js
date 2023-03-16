@@ -43,18 +43,22 @@ function Footer() {
         </div>
         <div className="address">
           <h1>Address</h1>
-          <p>Karur</p>
-          <p>Vaiyapuri nagar,Tamilnadu</p>
+          <p>
+            <i class="bi bi-caret-right-fill"></i>Karur
+          </p>
+          <p>
+            <i class="bi bi-caret-right-fill"></i>Vaiyapuri nagar,Tamilnadu
+          </p>
           <p></p>
         </div>
         <div className="icons">
           <span>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-envelope"></i>
+            <i class="bi bi-facebook" style={{ fontSize: "30px" }}></i>
+            <i class="bi bi-instagram" style={{ fontSize: "30px",marginLeft:'15px' }}></i>
+            <i class="bi bi-twitter" style={{ fontSize: "30px",marginLeft:'15px' }}></i>
+            <i class="bi bi-envelope" style={{ fontSize: "30px",marginLeft:'15px' }}></i>
           </span>
-          <div>
+          <div className="recent-heading">
             <h1>Recent Views</h1>
           </div>
           <div className="recent-places">

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book-container {
+  height: 200vh;
+}
+
+.booking-box {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--third-text-color);
+}
+.booking-box h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.booking-box form {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  /* grid-template-columns: auto auto; */
+  justify-content: center;
+  width: 85%;
+  height: 80%;
+  align-items: center;
+}
+
+.booking-box form label input {
+  width: 500px;
+  height: 50px;
+}
+
+.booking-box form label {
+  font-size: 20px;
+}
+
+#btn-book {
+  margin-left: 400px;
+}
+
+#btn-book button {
+  height: 50px;
+  width: 380px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #fff;
+  font-size: 30px;
+}

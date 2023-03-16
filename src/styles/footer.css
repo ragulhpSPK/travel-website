@@ -27,7 +27,8 @@
 }
 
 .popular-places span i,
-.contact span i {
+.contact span i,
+.address p i {
   color: var(--first-text-color);
 }
 
@@ -41,6 +42,22 @@
   height: 50px;
 }
 
-.icons i {
-  margin: 5px;
+.icons span {
+  float: right;
+}
+
+.recent-places {
+  margin-top: 5%;
+}
+
+.recent-heading h1 {
+  margin-top: 5%;
+}
+
+@media (max-width: 1328px) {
+  .popular-places h1,
+  .recent-heading h1,
+  .popular-places h1 {
+    font-size: 30px;
+  }
 }
