@@ -13,7 +13,7 @@
 
 .address-box {
   width: 40%;
-  background: url("../../public/assets/contact1.jpg.jpg");
+  background: url("../../public/assets/call.jpg");
   height: 90%;
   text-align: justify;
   display: flex;
@@ -140,4 +140,3 @@
     width: 90%;
   }
 }
-
