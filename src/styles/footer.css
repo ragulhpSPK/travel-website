@@ -1,0 +1,41 @@
+.footer-section {
+  height: 30vh;
+  background-color: var(--second-text-color);
+}
+.content-section {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.img-box1 img {
+  width: 40%;
+}
+
+.popular-places {
+  width: 20%;
+  text-align: justify;
+}
+
+.popular-places h1 {
+  font-size: 40px;
+}
+
+.popular-places span {
+  font-size: 20px;
+}
+
+.popular-places span i,
+.contact span i {
+  color: var(--first-text-color);
+}
+
+.recent-places {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+}
+
+.icons i {
+  margin: 5px;
+}

@@ -1,0 +1,228 @@
+.home-second-page {
+  height: 100vh;
+}
+
+.total-content {
+  background-color: var(--third-text-color);
+  height: 60vh;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: var(--first-text-color);
+}
+
+.heading p {
+  width: 60%;
+  font-size: 22px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  width: 20%;
+}
+
+.content h1 {
+  color: var(--first-text-color);
+  font-size: 45px;
+}
+
+.content p {
+  width: 100%;
+  font-size: 20px;
+}
+
+.packages {
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("E:\ragul\Travel-website\my-website\src\assets\bg02.jpg");
+  background-position-x: center;
+  background-position-y: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.package-para {
+  width: 40%;
+  color: white;
+}
+
+.package-para h1 {
+  font-size: 60px;
+}
+
+.package-para p {
+  font-size: 25px;
+}
+
+.packages button {
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+.packages button:hover {
+  background-color: var(--first-text-color);
+}
+
+.review-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third-text-color);
+}
+.first-section {
+  width: 40%;
+}
+
+.first-section p {
+  font-size: 50px;
+  color: var(--first-text-color);
+}
+
+.second-section {
+  width: 40%;
+}
+
+.second-section h1 {
+  font-size: 40px;
+  margin-top: 5px;
+  color: var(--first-text-color);
+}
+
+.second-section textarea {
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.second-section textarea::placeholder {
+  font-size: 40px;
+}
+
+.second-section span i {
+  font-size: 30px;
+  color: var(--first-text-color-);
+}
+
+@media (max-width: 1492px) {
+  .total-content {
+    height: 70vh;
+  }
+  .heading h1 {
+    font-size: 45px;
+  }
+  .content h1 {
+    font-size: 35px;
+  }
+  .heading p {
+    width: 80%;
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 884px) {
+  .total-content {
+    height: 80vh;
+  }
+  .heading h1 {
+    font-size: 35px;
+  }
+  .content h1 {
+    font-size: 25px;
+  }
+  .heading p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 724px) {
+  .total-content {
+    height: 85vh;
+  }
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .content {
+    width: 100%;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+  .heading p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .content h1 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 5% 0 5%;
+  }
+}
+
+@media (max-width: 572px) {
+  .total-content {
+    height: 85vh;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .content h1 {
+    font-size: 18px;
+  }
+  .heading p {
+    width: 80%;
+    font-size: 15px;
+  }
+  .content p {
+    font-size: 13px;
+  }
+}

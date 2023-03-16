@@ -1,0 +1,119 @@
+.home-page {
+  height: 250vh;
+}
+
+.first-page {
+  height: 100vh;
+  background-color: var(--third-text-color);
+}
+
+.img-box {
+  height: 90%;
+  width: 100%;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+}
+
+.scroll-left {
+  position: relative;
+  top: -22%;
+}
+
+.scroll-left p {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%),
+    3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 50%, 34%);
+}
+
+.para {
+  width: 100%;
+  text-align: center;
+}
+
+.para p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.buttons {
+  width: 100%;
+}
+
+.buttons button {
+  width: 100px;
+  margin-left: 5%;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+}
+
+.buttons button:hover {
+  background-color: var(--first-text-color);
+  font-weight: 700;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 960px) {
+  .img-box {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .img-box img {
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .scroll-left p {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .scroll-left p {
+    font-size: 18px;
+  }
+  .para p {
+    font-size: 8px;
+  }
+
+  .scroll-left {
+    position: relative;
+    top: -26%;
+  }
+}
+
+@media (max-width: 1084px) {
+  .scroll-left p {
+    font-size: 35px;
+  }
+
+  .para p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 522px) {
+  .scroll-left p {
+    font-size: 20px;
+  }
+  .para p {
+    font-size: 15px;
+  }
+
+  .scroll-left {
+    position: relative;
+    top: -24%;
+  }
+}
