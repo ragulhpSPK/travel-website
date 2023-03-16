@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles/booking.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 function Booking() {
   return (
@@ -54,6 +56,86 @@ function Booking() {
             <button>Submit</button>
           </div>
         </form>
+      </div>
+      <div className="booking-cards">
+        <div className="card-box">
+          <Card>
+            <Card.Img variant="top" src="./assets/goa.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="card-box">
+          <Card>
+            <Card.Img variant="top" src="./assets/ladakh.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="card-box">
+          <Card>
+            <Card.Img src="./assets/ooty.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button>Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+        {/* <div className="card-box">
+          <Card>
+            <Card.Img variant="top" src="./assets/manali.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div> */}
+        {/* <div className="card-box">
+          <Card>
+            <Card.Img variant="top" src="./assets/kodaikanal.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="card-box">
+          <Card>
+            <Card.Img variant="top" src="./assets/agra.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </div> */}
       </div>
     </div>
   );

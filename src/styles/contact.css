@@ -13,14 +13,14 @@
 
 .address-box {
   width: 40%;
-  background-image: url("E:\ragul\travel-website\public\assets\contact.jpg");
+  background: url("../../public/assets/contact1.jpg.jpg");
   height: 90%;
   text-align: justify;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-color: rgba(218, 206, 206, 0.422);
+  /* background-color: rgba(218, 206, 206, 0.422); */
   background-repeat: no-repeat !important;
   background-size: cover;
   background-position-x: left;

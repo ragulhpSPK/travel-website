@@ -22,7 +22,7 @@
   display: grid;
   grid-template-columns: repeat(2, 300px);
   /* grid-template-columns: auto auto; */
-  justify-content: center;
+  justify-content: space-evenly;
   width: 85%;
   height: 80%;
   align-items: center;
@@ -48,4 +48,9 @@
   border: none;
   border: 1px solid #fff;
   font-size: 30px;
+}
+
+.booking-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
 }
