@@ -34,6 +34,11 @@
 .recent-places {
   display: grid;
   grid-template-columns: repeat(3, 200px);
+  gap: 15px;
+}
+
+.img-box1 img {
+  height: 50px;
 }
 
 .icons i {

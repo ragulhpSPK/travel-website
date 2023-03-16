@@ -1,10 +1,5 @@
 import React from "react";
-import image1 from "../assets/ooty.jpg";
-import image2 from "../assets/manali.jpg";
-import image3 from "../assets/ladakh.jpg";
-import image4 from "../assets/kodaikanal.jpg";
-import image5 from "../assets/agra.jpg";
-import image6 from "../assets/goa.jpg";
+
 import "../styles/footer.css";
 
 function Footer() {
@@ -64,26 +59,26 @@ function Footer() {
           </div>
           <div className="recent-places">
             <div className="img-box1">
-              <img src={image1} alt="not found" />
+              <img src="./assets/manali.jpg" alt="not found" />
             </div>
             <div className="img-box1">
-              <img src={image2} alt="not found" />
-            </div>
-
-            <div className="img-box1">
-              <img src={image3} alt="not found" />
+              <img src="./assets/goa.jpg" alt="not found" />
             </div>
 
             <div className="img-box1">
-              <img src={image4} alt="not found" />
+              <img src="./assets/ooty.jpg" alt="not found" />
             </div>
 
             <div className="img-box1">
-              <img src={image5} alt="not found" />
+              <img src="./assets/agra.jpg" alt="not found" />
             </div>
 
             <div className="img-box1">
-              <img src={image6} alt="not found" />
+              <img src="./assets/ladakh.jpg" alt="not found" />
+            </div>
+
+            <div className="img-box1">
+              <img src="./assets/kodaikanal.jpg" alt="not found" />
             </div>
           </div>
         </div>
