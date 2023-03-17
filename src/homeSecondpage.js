@@ -85,10 +85,17 @@ function HomeSecondpage() {
       </div>
       <div className="review-section">
         <div className="first-section">
-          <p>Give your reviews,How you all enjoy our transport service...</p>
+          <p data-aos="fade-right" data-aos-duration="2000">
+            Give your reviews,How you all enjoy our transport service...
+          </p>
         </div>
         <div className="second-section">
-          <img src="./assets/rev04.png" alt="Not found" />
+          <img
+            src="./assets/rev04.png"
+            alt="Not found"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          />
         </div>
       </div>
     </div>

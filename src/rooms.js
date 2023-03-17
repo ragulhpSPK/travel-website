@@ -1,192 +1,30 @@
 import React from "react";
 import "./styles/rooms.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import { roomsContent } from "./helper/roomscontent";
 
 function Rooms() {
   return (
-    <div className="rooms-container">
-      <h1>Rooms We Provided</h1>
-      <div className="room-cards">
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/single.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
+    <div className="rooms_container">
+      <h1 style={{ textAlign: "center", paddingTop: "40px" }}>
+        Rooms We Provided
+      </h1>
+      <div className="rooms_cards">
+        {roomsContent.map((data, index) => {
+          return (
+            <div className="rooms_box">
+              <Card key={index}>
+                <Card.Img variant="top" src={data.room_img}></Card.Img>
+                <Card.Body>
+                  <Card.Title>{data.room_title}</Card.Title>
+                  <Card.Text>{data.rooms_content}</Card.Text>
+                  <Button variant="primary">Book Now</Button>
+                </Card.Body>
+              </Card>
             </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/double.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/triple.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/quad.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/appartments.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/studio.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/twin.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/villa.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/connecting.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/adjoining.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/double double.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="rooms-box">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="./assets/minisuite.webp" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <a className="btn btn-primary" href="booking">
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </div>
   );

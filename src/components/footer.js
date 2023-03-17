@@ -33,7 +33,7 @@ function Footer() {
           <h1>Contact</h1>
           <span>
             <i class="bi bi-caret-right-fill" />
-            Ph No:923-4987-625
+            PhNo:9234987625
           </span>
           <br />
           <span>
@@ -50,18 +50,30 @@ function Footer() {
             <i class="bi bi-caret-right-fill"></i>Vaiyapuri nagar,Tamilnadu
           </p>
           <p></p>
+          <div className="icons">
+            <span>
+              <i class="bi bi-facebook" style={{ fontSize: "30px" }}></i>
+              <i
+                class="bi bi-instagram"
+                style={{ fontSize: "30px" }}
+              ></i>
+              <i
+                class="bi bi-twitter"
+                style={{ fontSize: "30px" }}
+              ></i>
+              <i
+                class="bi bi-envelope"
+                style={{ fontSize: "30px"}}
+              ></i>
+            </span>
+          </div>
         </div>
-        <div className="icons">
-          <span>
-            <i class="bi bi-facebook" style={{ fontSize: "30px" }}></i>
-            <i class="bi bi-instagram" style={{ fontSize: "30px",marginLeft:'15px' }}></i>
-            <i class="bi bi-twitter" style={{ fontSize: "30px",marginLeft:'15px' }}></i>
-            <i class="bi bi-envelope" style={{ fontSize: "30px",marginLeft:'15px' }}></i>
-          </span>
+
+        <div className="last_footer">
           <div className="recent-heading">
             <h1>Recent Views</h1>
           </div>
-          <div className="recent-places">
+          <div className="recent-places ">
             <div className="img-box1">
               <img src="./assets/manali.jpg" alt="not found" />
             </div>

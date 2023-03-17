@@ -1,5 +1,5 @@
 .home-second-page {
-  height: 100vh;
+  height: 150vh;
 }
 
 .total-content {
@@ -15,33 +15,31 @@
 }
 
 .heading h1 {
-  font-size: 55px;
+  font-size: 60px;
   font-weight: 600;
   color: var(--first-text-color);
 }
 
 .heading p {
   width: 60%;
-  font-size: 22px;
+  font-size: 27px;
 }
 
 .content-box {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .content {
   width: 20%;
 }
 
-.content img {
-  margin-left: 30%;
-}
-
 .content h1 {
   color: var(--first-text-color);
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .content p {
@@ -69,15 +67,15 @@
 }
 
 .package-para h1 {
-  font-size: 60px;
+  font-size: 65px;
 }
 
 .package-para p {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .packages button {
-  font-size: 20px;
+  font-size: 25px;
   height: 50px;
   width: 200px;
   background-color: transparent;
@@ -103,7 +101,7 @@
 }
 
 .first-section p {
-  font-size: 50px;
+  font-size: 55px;
   color: var(--first-text-color);
 }
 
@@ -120,15 +118,15 @@
 .second-section textarea {
   margin-top: 5px;
   border-radius: 5px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .second-section textarea::placeholder {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .second-section span i {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--first-text-color-);
 }
 
@@ -137,17 +135,17 @@
     height: 70vh;
   }
   .heading h1 {
-    font-size: 45px;
+    font-size: 50px;
   }
   .content h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .heading p {
     width: 80%;
-    font-size: 20px;
+    font-size: 25px;
   }
   .content p {
-    font-size: 18px;
+    font-size: 23px;
   }
 
   .second-section img {
@@ -160,29 +158,29 @@
     height: 80vh;
   }
   .heading h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .content h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .heading p {
     width: 80%;
-    font-size: 18px;
+    font-size: 23px;
   }
   .content p {
-    font-size: 16px;
+    font-size: 21px;
   }
 
   .package-para h1 {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   .package-para p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .packages button {
-    font-size: 18px;
+    font-size: 23px;
     height: 45px;
     width: 150px;
   }
@@ -204,10 +202,10 @@
   }
 
   .heading h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .content h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .heading {
@@ -215,32 +213,32 @@
   }
   .heading p {
     width: 100%;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .content h1 {
-    font-size: 35px;
+    font-size: 40px;
     width: 100%;
     text-align: center;
   }
 
   .content p {
-    font-size: 12px;
+    font-size: 17px;
     text-align: justify;
     padding: 0 5% 0 5%;
   }
 
   .package-para h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .package-para p {
-    font-size: 18px;
+    font-size: 23px;
     width: 90%;
   }
 
   .packages button {
-    font-size: 16px;
+    font-size: 21px;
     height: 40px;
     width: 120px;
   }
@@ -248,7 +246,7 @@
 
 @media (max-width: 784px) {
   .first-section p {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 
   .second-section,
@@ -267,17 +265,32 @@
     height: 85vh;
   }
   .heading h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .content h1 {
-    font-size: 18px;
+    font-size: 2px;
   }
   .heading p {
     width: 80%;
-    font-size: 15px;
+    font-size: 20px;
   }
   .content p {
-    font-size: 13px;
+    font-size: 18px;
+  }
+
+  .review-section {
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .first-section p {
+    font-size: 27px !important;
+    width: 90%;
+  }
+
+  .second-section img {
+    width: 220px;
+    margin-left: -16%;
   }
 }
 
@@ -285,10 +298,27 @@
   .packages {
     height: 50vh;
   }
-}
-@media (max-width: 998px) {
+
+  .review-section {
+    height: 50vh;
+  }
+
+  .first-section,
+  .second-section {
+    height: 50vh;
+  }
+
+  .second-section img {
+    height: 200px;
+  }
+
   .first-section p {
-    font-size: 30px;
+    font-size: 35px !important;
+  }
+}
+@media (max-width: 1038px) {
+  .first-section p {
+    font-size: 45px;
   }
 }
 
@@ -304,5 +334,11 @@
 
   .second-section img {
     height: 200px;
+  }
+}
+
+@media (max-width: 494px) {
+  .first-section p {
+    font-size: 25px !important;
   }
 }

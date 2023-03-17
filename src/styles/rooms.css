@@ -1,26 +1,43 @@
-.rooms-container {
-  height: 100vh;
-  margin-top: 5%;
+.rooms_container h1 {
+  color: var(--first-text-color) !important;
 }
 
-.rooms-container h1 {
-  text-align: center;
-}
-
-.card figure img {
-  width: 100%;
-  height: 250px;
-}
-
-.room-cards {
+.rooms_cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
-  width: 100%;
-  height: 50%;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh 4vw;
+  padding-top: 2vh;
 }
 
-.rooms-box {
-  width: 60%;
-  margin-top: 15%;
-  margin-left: 15%;
+.rooms_box {
+  width: 400px;
+  height: fit-content;
+}
+
+@media all and (orientation: portrait) {
+  .rooms_cards {
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .rooms_box {
+    width: 100vw;
+    padding: 10px;
+  }
+}
+
+@media (width >= 1024px) or (width>= 769px) {
+  .rooms_cards {
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .rooms_box {
+    width: 20vw;
+    padding: 10px;
+  }
 }

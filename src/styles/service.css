@@ -10,13 +10,15 @@
   align-items: center;
   min-height: 100vh;
   background: var(--third-text-color);
+  position: relative;
 }
 
 .service-box h2 {
-  margin-top: 50px;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   color: var(--first-text-color);
+  font-weight: normal;
+  padding-top: 8vh;
 }
 
 .container {
@@ -95,7 +97,8 @@
   width: 150px;
   height: 150px;
   transform: translateX(-50%);
-  background: #000;
+  /* background: #000; */
+  background: var(--second-text-color);
   z-index: 10 !important;
   overflow: hidden;
   display: flex;
@@ -181,8 +184,10 @@
 
 .cardbx .content .content-info h1 {
   font-size: 1.5rem;
-  font-weight: 500;
-  color: #45f3ff;
+  font-weight: 800;
+  /* color: #45f3ff; */
+  /* color: var(--first-text-color); */
+  color: var(--third-text-color);
   line-height: 1.2em;
 }
 
@@ -205,12 +210,26 @@
 .cardbx .content .content-info a {
   display: inline-block;
   padding: 8px 15px;
-  border-color: #45f3ff;
-  color: #292929;
+  /* border-color: #45f3ff; */
+  border-color: var(--first-text-color);
+  color: var(--third-text-color);
   margin-top: 10px;
   font-weight: 500;
   text-decoration: none;
   opacity: 0;
   transition: 0.5s;
-  background-color: #45f3ff;
+  /* background-color: #45f3ff; */
+  background-color: transparent;
+  /* background-color: var(--first-text-color); */
+  border: 1px solid var(--third-text-color);
+}
+
+.cardbx .content .content-info a:hover {
+  background-color: var(--first-text-color);
+}
+
+@media (max-width: 744px) {
+  .content-info p {
+    font-size: 12px !important;
+  }
 }

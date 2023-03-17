@@ -45,20 +45,30 @@ function Contact() {
         <form autoComplete="off" onSubmit={handleSubmit}>
           <label htmlfor="name">Enter Your Name*</label>
           <br />
-          <input
+          {/* <input
             value={values.name}
             id="name"
             type="name"
             placeholder="Enter name here"
             onChange={handleChange}
             onBlur={handleBlur}
+          /> */}
+
+          <input
+            type="text"
+            placeholder="Enter name here"
+            value={values.name}
+            id="name"
+            onChange={handleChange}
+            onBlur={handleBlur}
+            className="input input-bordered input-accent w-full max-w-xs"
           />
           <br></br>
           {errors.name && touched.name && <p>{errors.name}</p>}
 
           <label htmlfor="email">Enter Your Email*</label>
           <br />
-          <input
+          {/* <input
             value={values.email}
             id="email"
             type="email"
@@ -66,12 +76,31 @@ function Contact() {
             onChange={handleChange}
             onBlur={handleBlur}
             className={errors.email && touched.email ? "colorchange" : ""}
+          /> */}
+
+          <input
+            value={values.email}
+            id="email"
+            type="email"
+            placeholder="Enter Email here"
+            onChange={handleChange}
+            onBlur={handleBlur}
+            className="input input-bordered input-accent w-full max-w-xs"
           />
           <br></br>
           {errors.email && touched.email && <p>{errors.email}</p>}
 
           <label htmlfor="number">Enter Your Number</label>
           <br />
+          {/* <input
+            value={values.number}
+            id="number"
+            type="number"
+            placeholder="Enter number here"
+            onChange={handleChange}
+            onBlur={handleBlur}
+          /> */}
+
           <input
             value={values.number}
             id="number"
@@ -79,13 +108,18 @@ function Contact() {
             placeholder="Enter number here"
             onChange={handleChange}
             onBlur={handleBlur}
+            className="input input-bordered input-accent w-full max-w-xs"
           />
           <br></br>
           {errors.number && touched.number && <p>{errors.number}</p>}
 
           <label htmlFor="message">Message*</label>
           <br />
-          <textarea placeholder="Write us a message"></textarea>
+          {/* <textarea placeholder="Write us a message"></textarea> */}
+          <textarea
+            className="textarea textarea-accent"
+            placeholder="Write us a message"
+          ></textarea>
           {errors.message && touched.message && <p>{errors.message}</p>}
           <div id="btn">
             <button type="submit">Submit</button>

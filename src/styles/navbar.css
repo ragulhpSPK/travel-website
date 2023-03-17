@@ -1,11 +1,6 @@
-.navbar a:hover {
-  border-bottom: 3px solid var(--first-text-color);
-  transition: 0.5s;
-}
-
-
-@media (max-width: 1214px) {
-  .navbar a {
-    font-size: 12px;
-  }
+.navbar {
+  position: fixed;
+  z-index: 999;
+  background-color: var(--third-text-color);
+  height: 7vh;
 }

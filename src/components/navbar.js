@@ -12,7 +12,7 @@ const Appbar = () => {
   const StyledLink = styled(Link)({
     textDecoration: "none",
     color: "#000",
-    fontSize: "18px",
+    fontSize: "22px",
     "&.active": {
       backgroundColor: "red",
       padding: 10,
@@ -24,20 +24,23 @@ const Appbar = () => {
     // }
   });
   return (
-    <Navbar bg="light" expand="lg" style={{ height: "70px" }}>
-      <Container>
-        <Navbar.Brand href="#home" className="text-dark fw-bold fs-5">
+    <Navbar bg="light" expand="lg" className="text-bg-dark">
+      <Container fluid className="navbar">
+        <StyledLink
+          to="/"
+          className="text-primary fw-bold fs-5"
+          style={{ paddingLeft: "10vw" }}
+        >
           <Image
             src="./assets/logo1.png"
-            alt="Not found"
-            style={{ width: "60px" }}
-            id='logo'
+            alt="not found"
+            style={{ width: "50px" }}
           />
-          Travel Agency
-        </Navbar.Brand>
+          Mobile shop
+        </StyledLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav className="navbar">
+          <Nav style={{ paddingRight: "10vw", width: "50vw" }}>
             <StyledLink to="/" className="fw-bold ms-5">
               Home
             </StyledLink>
@@ -45,13 +48,13 @@ const Appbar = () => {
               Services
             </StyledLink>
             <StyledLink to="booking" className="fw-bold ms-5">
-              Book Your order
+              Ticket Bookings
             </StyledLink>
             <StyledLink to="about" className="fw-bold ms-5">
               About
             </StyledLink>
             <StyledLink to="contact" className="fw-bold ms-5">
-              Contact us
+              Contact
             </StyledLink>
           </Nav>
         </Navbar.Collapse>

@@ -26,7 +26,7 @@
 }
 
 .scroll-left p {
-  font-size: 40px;
+  font-size: 45px;
   color: #fff;
   letter-spacing: 3px;
   text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%);
@@ -38,7 +38,7 @@
 }
 
 .para p {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .buttons button:hover {
@@ -81,13 +81,13 @@
   }
 
   .scroll-left p {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 
 @media (max-width: 560px) {
   .scroll-left p {
-    font-size: 18px;
+    font-size: 22px;
   }
   .para p {
     font-size: 8px;
@@ -101,24 +101,30 @@
 
 @media (max-width: 1084px) {
   .scroll-left p {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .para p {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 522px) {
   .scroll-left p {
-    font-size: 20px;
+    font-size: 25px;
   }
   .para p {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .scroll-left {
     position: relative;
     top: -24%;
+  }
+}
+
+@media (max-width: 744px) {
+  .home-page {
+    height: 260vh;
   }
 }

@@ -5,9 +5,17 @@ function Service() {
   return (
     <div className="main">
       <div className="service-box">
-        <h2>Our Services</h2>
+        <h2
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          Our Services
+        </h2>
         <div className="container">
-          <div className="cardbx">
+          <div className="cardbx" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -30,7 +38,9 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx">
+          <div className="cardbx" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -53,7 +63,9 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx">
+          <div className="cardbx" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -76,7 +88,9 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx">
+          <div className="cardbx" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -99,7 +113,9 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx">
+          <div className="cardbx" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -122,7 +138,9 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx">
+          <div className="cardbx" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
             <div className="lines"></div>
             <div className="imgBx">
               <i
