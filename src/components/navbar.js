@@ -25,21 +25,25 @@ const Appbar = () => {
   });
   return (
     <Navbar bg="light" expand="lg" className="text-bg-dark">
-      <Container fluid className="navbar">
+      <Container fluid className="navbarmain">
         <StyledLink
           to="/"
           className="text-primary fw-bold fs-5"
           style={{ paddingLeft: "10vw" }}
+          id="logoweb"
         >
           <Image
             src="./assets/logo1.png"
             alt="not found"
             style={{ width: "50px" }}
           />
-          Mobile shop
+          Travel Agency
         </StyledLink>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" id='navbtn'/>
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="justify-content-end pe-3 backgroundbg"
+        >
           <Nav style={{ paddingRight: "10vw", width: "50vw" }}>
             <StyledLink to="/" className="fw-bold ms-5">
               Home

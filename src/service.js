@@ -13,9 +13,12 @@ function Service() {
           Our Services
         </h2>
         <div className="container">
-          <div className="cardbx" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+          <div
+            className="cardbx"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -38,9 +41,12 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+          <div
+            className="cardbx"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -63,9 +69,12 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+          <div
+            className="cardbx"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -88,9 +97,12 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+          <div
+            className="cardbx"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -113,9 +125,12 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+          <div
+            className="cardbx"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="lines"></div>
             <div className="imgBx">
               <i
@@ -138,9 +153,12 @@ function Service() {
             </div>
           </div>
 
-          <div className="cardbx" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+          <div
+            className="cardbx"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="lines"></div>
             <div className="imgBx">
               <i

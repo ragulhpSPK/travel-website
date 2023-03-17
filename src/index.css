@@ -8,6 +8,10 @@ body {
   font-family: "Rancho", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {

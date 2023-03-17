@@ -17,7 +17,7 @@ function About() {
               <div className="about-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  do  aliqua.
                 </p>
               </div>
             </div>
@@ -33,7 +33,7 @@ function About() {
               <div className="about-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  aliqua.
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ function About() {
               <div className="about-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  aliqua.
                 </p>
               </div>
             </div>

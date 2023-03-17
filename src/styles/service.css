@@ -10,15 +10,15 @@
   align-items: center;
   min-height: 100vh;
   background: var(--third-text-color);
-  position: relative;
 }
 
 .service-box h2 {
+  margin-top: 50px;
   font-size: 60px;
   text-align: center;
   color: var(--first-text-color);
   font-weight: normal;
-  padding-top: 8vh;
+  padding-top: 3vh;
 }
 
 .container {
@@ -67,10 +67,14 @@
   );
   animation: animate 4s linear infinite;
   animation-play-state: paused;
+  transition-duration: 1s;
+  transition: 0.5s;
 }
 
 .cardbx:hover .lines::before {
   animation-play-state: running;
+  transition-duration: 1s;
+  transition: 0.5s;
 }
 
 @keyframes animate {
@@ -106,6 +110,7 @@
   align-items: center;
   transition: 0.5s;
   text-align: center;
+  transition-duration: 1s;
 }
 
 .cardbx:hover .imgBx {
@@ -125,10 +130,15 @@
   /* background: linear-gradient(transparent,#ff3c7b,#ff3c7b,#ff3c7b,transparent); */
   animation: animate2 6s linear infinite;
   animation-play-state: paused;
+  transition: 0.5s;
+  transition-duration: 1s;
+  transition: 0.5s;
 }
 
 .carcardbxd:hover .imgBx .imgBx::before {
   animation-play-state: running;
+  transition-duration: 1s;
+  transition: 0.5s;
 }
 
 @keyframes animate2 {
@@ -230,6 +240,6 @@
 
 @media (max-width: 744px) {
   .content-info p {
-    font-size: 12px !important;
+    font-size: 18px !important;
   }
 }
