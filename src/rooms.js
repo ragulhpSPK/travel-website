@@ -1,11 +1,8 @@
 import "./styles/rooms.css";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { roomsContent } from "./helper/roomscontent";
 
 function Rooms() {
-  
-
   return (
     <div className="rooms_container">
       <h1
@@ -33,7 +30,9 @@ function Rooms() {
                 <Card.Body>
                   <Card.Title>{data.room_title}</Card.Title>
                   <Card.Text>{data.rooms_content}</Card.Text>
-                  <Button variant="primary" className="book_button">Book Now</Button>
+                  <a href="booking" className="book_button">
+                    Book Now
+                  </a>
                 </Card.Body>
               </Card>
             </div>

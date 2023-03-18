@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/booking.css";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Rooms from "./rooms";
 import { placeContent } from "./helper/placesContent";
@@ -138,9 +137,9 @@ function Booking() {
                 <Card.Body>
                   <Card.Title>{data.place_title}</Card.Title>
                   <Card.Text>{data.place_content}</Card.Text>
-                  <Button variant="primary" className="book_button">
+                  <a href="booking" className="book_button">
                     Book Now
-                  </Button>
+                  </a>
                 </Card.Body>
               </Card>
             </div>

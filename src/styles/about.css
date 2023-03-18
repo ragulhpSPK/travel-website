@@ -105,12 +105,13 @@
 }
 
 .content-box2 h1 {
-  font-size: 60px;
+  font-size: 70px;
   color: var(--first-text-color);
 }
 .content-box2 p {
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: lighter;
 }
 
 .content-box2 button {
@@ -121,7 +122,7 @@
   border: 1px solid var(--second-text-color);
   transition: 3s;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .content-box2 button:hover {
@@ -182,13 +183,35 @@
   .card-container {
     width: 100vw;
     padding: 20px;
+    height: 10vh;
   }
 
   .card-container .about-card {
-    height: 150px;
-    width: 600px !important;
+    height: 120px;
+    width: 800px !important;
   }
 
+  .about-content img {
+    width: 60px !important;
+    text-align: center;
+  }
+
+  .content-box2 p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: lighter;
+  }
+  .content-box2 {
+    height: 40vh;
+  }
+
+  .content-box2 h1 {
+    font-size: 40px;
+  }
+
+  .about-content h3 {
+    font-size: 15px !important;
+  }
   .card-container .about-card .face.face2 .about-content {
     font-size: 10px !important;
   }

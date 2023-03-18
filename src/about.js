@@ -12,7 +12,7 @@ function About() {
             data-aos-duration="1000"
           >
             <div className="face face1">
-              <div className="content">
+              <div className="about-content">
                 <img
                   src="./assets/hotelbooking.png"
                   alt="not found"

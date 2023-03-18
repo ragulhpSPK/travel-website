@@ -62,6 +62,14 @@
 .book_button {
   background-color: var(--first-text-color);
   font-size: 17px;
+  text-decoration: none;
+  padding: 8px 14px 8px 14px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.book_button a {
+  pointer-events: none !important;
 }
 
 @media all and (orientation: portrait) {
