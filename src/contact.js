@@ -30,8 +30,8 @@ function Contact() {
           <h1>
             <i class="bi bi-geo-alt"></i>Address
           </h1>
-          <p>Vayapurinagar,</p>
-          <p>karur,tamilnadu,india.</p>
+          <p>Longview,</p>
+          <p>Texas,United States.</p>
         </div>
         <div className="number">
           <h1>

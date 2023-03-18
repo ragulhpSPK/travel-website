@@ -31,6 +31,7 @@
   width: 40vw;
   height: 50px;
   font-size: 20px;
+  padding: 10px;
 }
 
 .form_controller label {
@@ -43,16 +44,18 @@
 }
 
 .btn_book button {
-  width: 18vw;
+  width: 16vw;
   height: 6vh;
   border: none;
   border: 1px solid var(--second-text-color);
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 500;
   background-color: transparent;
   transition: 0.5s;
   transition-duration: 2s;
   transition-property: all;
+  border-radius: 5px;
 }
 
 .btn_book button:hover {
@@ -69,12 +72,44 @@
   gap: 2vh 4vw;
   padding-top: 2vh;
   height: fit-content;
-  /* overflow: scroll; */
 }
 
 .cards_box {
   width: 400px;
   height: fit-content;
+}
+
+.description {
+  opacity: 0;
+  font-size: 20px;
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  color: #000;
+  width: 300px;
+  height: 300px;
+  transition: all 400ms ease-out;
+  text-align: justify;
+  padding: 1vh;
+}
+
+.cards_box .description:hover {
+  opacity: 1;
+}
+
+.cards_box .description .text {
+  height: 0;
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.cards_box:hover .card-img-top {
+  opacity: 0.2;
+}
+
+.cards_box .description:hover .text {
+  opacity: 1;
+  transform: translateY(20px);
 }
 
 @media all and (orientation: portrait) {

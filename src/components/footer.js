@@ -44,27 +44,18 @@ function Footer() {
         <div className="address">
           <h1>Address</h1>
           <p>
-            <i class="bi bi-caret-right-fill"></i>Karur
+            <i class="bi bi-caret-right-fill"></i> Longview
           </p>
           <p>
-            <i class="bi bi-caret-right-fill"></i>Vaiyapuri nagar,Tamilnadu
+            <i class="bi bi-caret-right-fill"></i>Texas,United States
           </p>
           <p></p>
           <div className="icons">
             <span>
               <i class="bi bi-facebook" style={{ fontSize: "30px" }}></i>
-              <i
-                class="bi bi-instagram"
-                style={{ fontSize: "30px" }}
-              ></i>
-              <i
-                class="bi bi-twitter"
-                style={{ fontSize: "30px" }}
-              ></i>
-              <i
-                class="bi bi-envelope"
-                style={{ fontSize: "30px"}}
-              ></i>
+              <i class="bi bi-instagram" style={{ fontSize: "30px" }}></i>
+              <i class="bi bi-twitter" style={{ fontSize: "30px" }}></i>
+              <i class="bi bi-envelope" style={{ fontSize: "30px" }}></i>
             </span>
           </div>
         </div>

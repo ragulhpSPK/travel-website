@@ -16,6 +16,49 @@
   height: fit-content;
 }
 
+.description {
+  opacity: 0;
+  font-size: 20px;
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  color: #000;
+  width: 300px;
+  height: 300px;
+  transition: all 400ms ease-out;
+  text-align: justify;
+  padding: 1vh;
+}
+
+.rooms_box .description:hover {
+  opacity: 1;
+}
+
+.rooms_box .description .text {
+  height: 0;
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.rooms_box:hover .card-img-top {
+  opacity: 0.2;
+}
+
+.rooms_box .description:hover .text {
+  opacity: 1;
+  transform: translateY(20px);
+}
+
+.Search_box {
+  width: 100vw;
+  text-align: center;
+}
+
+.Search_box input {
+  width: 15vw;
+  height: 5vh;
+}
+
 @media all and (orientation: portrait) {
   .rooms_cards {
     grid-template-columns: auto;

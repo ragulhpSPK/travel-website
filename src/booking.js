@@ -9,8 +9,14 @@ function Booking() {
   return (
     <div className="book_container">
       <div className="booking_box">
-        <h1>Book Your Dream Place</h1>
-        <form className="form_controller">
+        <h1 data-aos="fade-right" data-aos-duration="1000">
+          Book Your Dream Place
+        </h1>
+        <form
+          className="form_controller"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <label htmlFor="name">
             Name
             <br />
@@ -107,15 +113,28 @@ function Booking() {
           </div>
         </form>
       </div>
-      <h1 style={{ textAlign: "center", paddingTop: "90px" }}>
+      <h1
+        style={{ textAlign: "center", paddingTop: "90px" }}
+        data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         Offers of the Month
       </h1>
       <div className="booking_cards">
         {placeContent.map((data, index) => {
           return (
-            <div className="cards_box">
+            <div
+              className="cards_box"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+            >
               <Card key={index}>
                 <Card.Img variant="top" src={data.place_image}></Card.Img>
+                <div class="description">
+                  <div class="text">{data.place_description}</div>
+                </div>
                 <Card.Body>
                   <Card.Title>{data.place_title}</Card.Title>
                   <Card.Text>{data.place_content}</Card.Text>

@@ -16,7 +16,7 @@ function About() {
                 <img
                   src="./assets/hotelbooking.png"
                   alt="not found"
-                  style={{ width: "70px" }}
+                  style={{ width: "90px" }}
                 />
                 <h3>Hotel Booking</h3>
               </div>
@@ -24,8 +24,8 @@ function About() {
             <div className="face face2">
               <div className="about-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do aliqua.
+                  the perfect hotel for your next adventure with our wide
+                  selection of options and competitive prices.
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ function About() {
                 <img
                   src="./assets/air2.png"
                   alt="not found"
-                  style={{ width: "70px" }}
+                  style={{ width: "90px" }}
                 />
                 <h3>Air ticket</h3>
               </div>
@@ -48,8 +48,8 @@ function About() {
             <div className="face face2">
               <div className="about-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  aliqua.
+                  We offer convenient air ticket booking services for your
+                  travel needs.
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ function About() {
                 <img
                   src="./assets/train.png"
                   alt="not found"
-                  style={{ width: "70px" }}
+                  style={{ width: "90px" }}
                 />
                 <h3>Train ticket</h3>
               </div>
@@ -73,8 +73,8 @@ function About() {
             <div className="face face2">
               <div className="about-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  aliqua.
+                  We offer seamless train ticket booking services to our
+                  customers.
                 </p>
               </div>
             </div>
@@ -92,14 +92,16 @@ function About() {
         >
           <h1>About us</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+            We’re a worker-claimed travel organization secured by our qualities,
+            trustworthiness, and commitment to client benefit. Our honor-winning
+            organization reliably positions as a standout amongst other offices
+            in the nation (Travel Weekly, Business Travel Weekly), and is the
+            best individual from the renowned Signature Travel Network, an
+            overall association enabling us to give our clients unmatched
+            advantages. Fulfilled workers lead to fulfilled clients. We know the
+            development and accomplishment of our organization rely on
+            satisfying our customer’s needs each day. That is additionally our
+            guarantee.
           </p>
           <button>Read more</button>
         </div>

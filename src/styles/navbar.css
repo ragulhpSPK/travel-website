@@ -15,6 +15,7 @@
 
 .backgroundbg {
   padding-top: 2vh;
+  background-color: var(--third-text-color);
 }
 
 .backgroundbg a {

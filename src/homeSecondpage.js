@@ -1,7 +1,5 @@
 import React from "react";
-// import logo from "./assets/travellogo1.png";
 import "./styles/homesecondpage.css";
-// import revlogo from "./assets/rev04.png";
 
 function HomeSecondpage() {
   return (
@@ -26,10 +24,10 @@ function HomeSecondpage() {
             />
             <h1>Safety Travel</h1>
             <p data-aos="zoom-out" data-aos-duration="1000">
-              Travelling is an amazing way to learn a lot of things in life. A
-              lot of people around the world travel every year to many places.
-              Moreover, it is important to travel to humans. Some travel to
-              learn more while some travel to take a break from their life.
+              Provide users with comprehensive safety information and resources,
+              including tips on staying safe while traveling and how to respond
+              to emergencies. Offer up-to-date travel advisories and alerts, so
+              users can make informed decisions about their travel plans.
             </p>
           </div>
           <div className="content">
@@ -40,10 +38,11 @@ function HomeSecondpage() {
             />
             <h1>Book your trip</h1>
             <p data-aos="zoom-out" data-aos-duration="1000">
-              Travelling is an amazing way to learn a lot of things in life. A
-              lot of people around the world travel every year to many places.
-              Moreover, it is important to travel to humans. Some travel to
-              learn more while some travel to take a break from their life.
+              Provide users with an easy-to-use booking system for flights,
+              accommodations, tours, and activities to simplify the trip
+              planning process. Offer competitive prices, special deals, and
+              discounts to attract price-sensitive users and encourage repeat
+              bookings.
             </p>
           </div>
           <div className="content">
@@ -54,10 +53,11 @@ function HomeSecondpage() {
             />
             <h1>Good Support</h1>
             <p data-aos="zoom-out" data-aos-duration="1000">
-              Travelling is an amazing way to learn a lot of things in life. A
-              lot of people around the world travel every year to many places.
-              Moreover, it is important to travel to humans. Some travel to
-              learn more while some travel to take a break from their life.
+              Provide detailed maps and directions, weather information, and
+              travel alerts to ensure users have a positive experience. By
+              offering useful support content, you can establish your travel
+              website as a reliable and trustworthy resource, and help users
+              make the most of their travels.
             </p>
           </div>
         </div>

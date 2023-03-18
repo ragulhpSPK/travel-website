@@ -9,7 +9,13 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: var(--third-text-color);
+  /* background: var(--third-text-color); */
+  background-color: #e4f6eff8;
+  background: linear-gradient(
+    rgba(235, 245, 234, 0.995),
+    rgb(231, 241, 223),
+    rgba(204, 235, 206, 0.869)
+  );
 }
 
 .service-box h2 {
@@ -59,11 +65,19 @@
   left: 50%;
   width: 600px;
   height: 120px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     transparent,
     #45f3ff,
     #45f3ff,
     #45f3ff,
+    transparent
+  ); */
+
+  background: linear-gradient(
+    transparent,
+    rgba(45, 235, 7, 0.995),
+    rgb(98, 222, 10),
+    rgba(8, 134, 25, 0.869),
     transparent
   );
   animation: animate 4s linear infinite;

@@ -18,10 +18,6 @@ const Appbar = () => {
       padding: 10,
       borderRadius: 5,
     },
-
-    //    "&:hover" :{
-    //   background: none;
-    // }
   });
   return (
     <Navbar bg="light" expand="lg" className="text-bg-dark">
