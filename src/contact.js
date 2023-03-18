@@ -18,7 +18,13 @@ function Contact() {
   console.log(errors);
   return (
     <div className="contact-container">
-      <div className="address-box">
+      <div
+        className="address-box"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in"
+        data-aos-duration="1000"
+      >
         <h2>Follow us</h2>
         <div className="address2">
           <h1>
@@ -42,17 +48,16 @@ function Contact() {
       </div>
       <div className="contact-box">
         <h1>Get in touch with us</h1>
-        <form autoComplete="off" onSubmit={handleSubmit}>
+        <form
+          autoComplete="off"
+          onSubmit={handleSubmit}
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <label htmlfor="name">Enter Your Name*</label>
           <br />
-          {/* <input
-            value={values.name}
-            id="name"
-            type="name"
-            placeholder="Enter name here"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          /> */}
 
           <input
             type="text"
@@ -68,15 +73,6 @@ function Contact() {
 
           <label htmlfor="email">Enter Your Email*</label>
           <br />
-          {/* <input
-            value={values.email}
-            id="email"
-            type="email"
-            placeholder="Enter Email here"
-            onChange={handleChange}
-            onBlur={handleBlur}
-            className={errors.email && touched.email ? "colorchange" : ""}
-          /> */}
 
           <input
             value={values.email}
@@ -92,14 +88,6 @@ function Contact() {
 
           <label htmlfor="number">Enter Your Number</label>
           <br />
-          {/* <input
-            value={values.number}
-            id="number"
-            type="number"
-            placeholder="Enter number here"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          /> */}
 
           <input
             value={values.number}
@@ -115,7 +103,7 @@ function Contact() {
 
           <label htmlFor="message">Message*</label>
           <br />
-          {/* <textarea placeholder="Write us a message"></textarea> */}
+
           <textarea
             className="textarea textarea-accent"
             placeholder="Write us a message"

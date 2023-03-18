@@ -53,7 +53,6 @@ function Service() {
                 class="bi bi-fire"
                 style={{
                   fontSize: "50px",
-                  color: "green",
                 }}
               ></i>
             </div>
@@ -81,7 +80,6 @@ function Service() {
                 class="bi bi-headset"
                 style={{
                   fontSize: "50px",
-                  color: "green",
                 }}
               ></i>
             </div>
@@ -109,7 +107,6 @@ function Service() {
                 class="bi bi-buildings"
                 style={{
                   fontSize: "50px",
-                  color: "green",
                 }}
               ></i>
             </div>

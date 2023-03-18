@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 999;
   background-color: var(--third-text-color);
-  height: 10vh;
+  height: 12vh;
 }
 
 #logoweb {
@@ -20,12 +20,12 @@
   font-size: 20px;
 }
 
-#navbtn {
-  margin-top: 4vh;
-}
+/* #navbtn {
+  margin-top: 5vh;
+} */
 
 .backgroundbg a {
-  padding-top: 3vh;
+  padding-top: 5vh;
 }
 
 @media (max-width: 1324px) {

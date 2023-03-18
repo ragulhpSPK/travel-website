@@ -8,7 +8,7 @@ function HomeSecondpage() {
     <div className="home-second-page">
       <div className="total-content">
         <div className="heading">
-          <h1 data-aos="fade-right" data-aos-duration="2000">
+          <h1 data-aos="fade-right" data-aos-duration="1000">
             why You want book us
           </h1>
           <p>
@@ -25,7 +25,7 @@ function HomeSecondpage() {
               style={{ width: "60px" }}
             />
             <h1>Safety Travel</h1>
-            <p data-aos="zoom-out" data-aos-duration="2000">
+            <p data-aos="zoom-out" data-aos-duration="1000">
               Travelling is an amazing way to learn a lot of things in life. A
               lot of people around the world travel every year to many places.
               Moreover, it is important to travel to humans. Some travel to
@@ -34,12 +34,12 @@ function HomeSecondpage() {
           </div>
           <div className="content">
             <img
-              src="./assets/travellogo1.png"
+              src="./assets/ticketbook.png"
               alt="not found"
-              style={{ width: "60px" }}
+              style={{ width: "80px" }}
             />
             <h1>Book your trip</h1>
-            <p data-aos="zoom-out" data-aos-duration="2000">
+            <p data-aos="zoom-out" data-aos-duration="1000">
               Travelling is an amazing way to learn a lot of things in life. A
               lot of people around the world travel every year to many places.
               Moreover, it is important to travel to humans. Some travel to
@@ -48,12 +48,12 @@ function HomeSecondpage() {
           </div>
           <div className="content">
             <img
-              src="./assets/travellogo1.png"
+              src="./assets/support.png"
               alt="not found"
               style={{ width: "60px" }}
             />
             <h1>Good Support</h1>
-            <p data-aos="zoom-out" data-aos-duration="2000">
+            <p data-aos="zoom-out" data-aos-duration="1000">
               Travelling is an amazing way to learn a lot of things in life. A
               lot of people around the world travel every year to many places.
               Moreover, it is important to travel to humans. Some travel to
@@ -65,27 +65,27 @@ function HomeSecondpage() {
       {/* packages */}
       <div className="packages">
         <div className="package-para">
-          <h1 data-aos="fade-right" data-aos-duration="2000">
+          <h1 data-aos="fade-right" data-aos-duration="1000">
             Travel packages
           </h1>
-          <p data-aos="zoom-in" data-aos-duration="2000">
+          <p data-aos="zoom-in" data-aos-duration="1000">
             Travel brings power and love back into your life.So,Take only
             memories, leave only footprints...
           </p>
-          <p data-aos="zoom-in" data-aos-duration="2000">
+          <p data-aos="zoom-in" data-aos-duration="1000">
             Your Travel package starts <br /> from:
-            <span data-aos="zoom-in" data-aos-duration="2000">
+            <span data-aos="zoom-in" data-aos-duration="1000">
               $56
             </span>
           </p>
         </div>
-        <button data-aos="zoom-in" data-aos-duration="2000">
+        <button data-aos="zoom-in" data-aos-duration="1000">
           For more details
         </button>
       </div>
       <div className="review-section">
         <div className="first-section">
-          <p data-aos="fade-right" data-aos-duration="2000">
+          <p data-aos="fade-right" data-aos-duration="1000">
             Give your reviews,How you all enjoy our transport service...
           </p>
         </div>

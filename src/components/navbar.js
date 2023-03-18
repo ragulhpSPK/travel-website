@@ -29,7 +29,7 @@ const Appbar = () => {
         <StyledLink
           to="/"
           className="text-primary fw-bold fs-5"
-          style={{ paddingLeft: "10vw" }}
+          style={{ paddingLeft: "10vw", paddingTop: "5vh" }}
           id="logoweb"
         >
           <Image
@@ -39,7 +39,7 @@ const Appbar = () => {
           />
           Travel Agency
         </StyledLink>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" id='navbtn'/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" id="navbtn" />
         <Navbar.Collapse
           id="basic-navbar-nav"
           className="justify-content-end pe-3 backgroundbg"

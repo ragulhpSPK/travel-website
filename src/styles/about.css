@@ -117,6 +117,16 @@
   height: 40px;
   width: 150px;
   border: none;
+  background: transparent;
+  border: 1px solid var(--second-text-color);
+  transition: 3s;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.content-box2 button:hover {
+  background-color: var(--first-text-color);
+  transition: 3s;
 }
 
 .img-box2 {

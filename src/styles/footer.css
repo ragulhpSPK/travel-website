@@ -96,6 +96,11 @@
     text-justify: inter-word;
     padding-left: 30vw;
   }
+
+  .recent-places img {
+    height: 50px;
+    width: 60px;
+  }
 }
 
 /* @media (width >= 624px) and (width <= 892px) {
