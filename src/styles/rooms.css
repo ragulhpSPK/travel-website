@@ -59,6 +59,11 @@
   height: 5vh;
 }
 
+.book_button {
+  background-color: var(--first-text-color);
+  font-size: 17px;
+}
+
 @media all and (orientation: portrait) {
   .rooms_cards {
     grid-template-columns: auto;

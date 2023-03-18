@@ -33,7 +33,7 @@ function Rooms() {
                 <Card.Body>
                   <Card.Title>{data.room_title}</Card.Title>
                   <Card.Text>{data.rooms_content}</Card.Text>
-                  <Button variant="primary">Book Now</Button>
+                  <Button variant="primary" className="book_button">Book Now</Button>
                 </Card.Body>
               </Card>
             </div>

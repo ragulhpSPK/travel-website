@@ -138,7 +138,9 @@ function Booking() {
                 <Card.Body>
                   <Card.Title>{data.place_title}</Card.Title>
                   <Card.Text>{data.place_content}</Card.Text>
-                  <Button variant="primary">Book Now</Button>
+                  <Button variant="primary" className="book_button">
+                    Book Now
+                  </Button>
                 </Card.Body>
               </Card>
             </div>
