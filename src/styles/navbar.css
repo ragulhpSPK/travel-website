@@ -3,6 +3,7 @@
   z-index: 999;
   background-color: var(--third-text-color);
   height: 12vh;
+  width: 100vw;
 }
 
 #logoweb {
@@ -13,19 +14,20 @@
 }
 
 .backgroundbg {
-  background-color: var(--third-text-color);
-  width: 100vw;
+  padding-top: 2vh;
+}
+
+.backgroundbg a {
   transition: 0.5s;
   text-align: center;
   font-size: 20px;
+  color: #000 !important;
+  padding: 1vh;
+  padding-top: 4vh;
 }
 
-/* #navbtn {
-  margin-top: 5vh;
-} */
-
-.backgroundbg a {
-  padding-top: 5vh;
+#navbtn {
+  margin-top: 6vh;
 }
 
 @media (max-width: 1324px) {

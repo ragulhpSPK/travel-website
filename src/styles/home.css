@@ -127,6 +127,7 @@
 
 @media (max-width: 744px) {
   .home-page {
-    height: 260vh;
+    height: 260vh !important;
+    overflow-y: hidden;
   }
 }
