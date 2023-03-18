@@ -132,6 +132,10 @@
     width: 100vw;
     padding: 10px;
   }
+
+  .btn_book button {
+    width: 25vw;
+  }
 }
 
 @media (width >= 1024px) or (width>= 769px) {
